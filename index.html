@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+</head>
+<!-- link the css file  -->
+<link rel="stylesheet" href="/css/style.css">
+
+<!-- link the font-awesome file  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+  integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  <!-- start Quiz button -->
+  <div class="start_btn"><button>Start Quiz</button></div>
+
+  <!-- Info Box -->
+  <div class="info_box">
+    <div class="info-title"><span>Some Rules of this Quiz</span></div>
+    <div class="info-list">
+      <div class="info">1. Once you select your answer, it can't be undone.</div>
+      <div class="info">2. You can't select any option once submitted.</div>
+      <div class="info">3. You can't exit from the Quiz while you're playing.</div>
+      <div class="info">4. You'll get points on the basis of your correct answers.</div>
+    </div>
+
+    <!-- Quiz quit & Continue button -->
+    <div class="buttons">
+      <button class="quit">Exit</button><!-- Quiz quit button -->
+      <button class="restart">Continue</button><!-- Quiz Continue button -->
+    </div>
+  </div>
+
+  <!-- quiz Box -->
+  <div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+      <h2 id="question">Question Text</h2>
+      <ul>
+        <li>
+          <input type="radio" name="answer" id="a" class="answer">
+          <label for="a" id="a_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="b" class="answer">
+          <label for="b" id="b_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="c" class="answer">
+          <label for="c" id="c_text">Answer</label>
+        </li>
+        <li>
+          <input type="radio" name="answer" id="d" class="answer">
+          <label for="d" id="d_text">Answer</label>
+        </li>
+      </ul>
+
+      <!-- Submit Quiz button -->
+    </div>
+    <button id="submit">Submit</button>
+  </div>
+
+  <!-- link the javaScript file  -->
+  </div>
+  <script src="/script/script.js"></script>
+</body>
+
+</html>

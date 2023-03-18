@@ -1,0 +1,73 @@
+question: "1. BORDER attributes specifies the",
+a: "thickness of the border around the table",
+b: "space between two borders",
+c: "space between two cells",
+d: "width of the table",
+correct: "a",
+ 
+question: "2. Which control is used when the input from the user may extend to several lines?",
+a: "multiline text area",
+b: "check box",
+c: "password control",
+d: "menu control",
+correct: "a",
+  
+question: "3. The item present within the angled brackets in an HTML tag is",
+a: "identifier",
+b: "data",
+c: "tags",
+d: "text",
+correct: "a",
+
+question: "4. A collection of ______ web pages on the World Wide Web",
+a: "interlinked",
+b: "paper",
+c: "book",
+d: "comic books",
+correct: "a",
+   
+question: "5. Which CSS property allows you to set multiple list properties at once?",
+a: "List - Style - Type",
+b: "List - Style",
+c: "List - Style- Position",
+d: "List - Style- Image",
+correct: "b",
+
+question: "6. The latest HTML standard is",
+a: "XML",
+b: "SGML",
+c: "HTML 4.0",
+d: "HTML 5.0",
+correct: "d",
+   
+question: "7. .NET Framework was designed and developed by _______.",
+a: "Microsoft",
+b: "IBM",
+c: "Oracle",
+d: "Google",
+correct: "a",
+  
+question: "8. _______ among the following is a Language of JavaScript.",
+a: "text/JavaScript",
+b: "text/ECMAScript",
+c: "text/VBScript",
+d: "JavaScript VBScript",
+correct: "a",
+   
+question: "9. Which of the following tags doesn’t require a closing tag?",
+a: "\<br>",
+b: "\<hr>",
+c: "both (a) & (b)",
+d: "none",
+correct: "c",
+   
+question: "10. Which of the following can read and render HTML web pages",
+a: "Server",
+b: "head Tak",
+c: "web browser",
+d: "empty",
+correct: "c",
+
+
+
+
